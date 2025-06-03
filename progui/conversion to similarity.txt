@@ -1,0 +1,17 @@
+if mse == 0.00:
+    return 100.0
+  elif mse >0.01 and mse <0.1:
+    into=np.random.randint(90, 100, size=1)
+    return into
+  elif mse >0.1 and mse<1.0:
+    ram=np.random.randint(80,89,size=1)
+    return ram
+  elif mse> 1.1 and mse< 10.0:
+    ram1=np.random.randint(50,79,size=1)
+    return ram1
+  elif mse >10.1 and mse <100.0:
+     num=np.random.randint(20,49,size=1)
+     return num
+  else:
+    no=np.random.randint(1,20,size=1)
+    return no    
